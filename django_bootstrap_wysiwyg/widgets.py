@@ -21,7 +21,7 @@ class WysiwygInput(Widget):
     # default toolbar items can be overridden via the constructor parameter
     toolbar_items = setting(
         "WYSIWYH_DEFAULT_TOOLBAR_ITEMS",
-        ['fonts', 'font_size', 'font_weights', 'lists',
+        ['fonts', 'font_size', 'font_weights', 'headings', 'lists',
          'alignments', 'hyperlink', 'image', 'history', 'speech']
     )
 

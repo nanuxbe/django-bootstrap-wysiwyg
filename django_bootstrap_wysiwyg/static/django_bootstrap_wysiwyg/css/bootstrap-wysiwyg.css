@@ -34,3 +34,6 @@
 .editor-toolbar {
     position: relative
 }
+.btn.btn-txt {
+  padding: 3px 7px 4px 7px;
+}
