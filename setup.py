@@ -9,7 +9,7 @@ setup(
     author_email='suleyman@melikoglu.info',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/laplacesdemon/django-bootstrap-wysiwyg.git',
+    url='https://github.com/nanuxbe/django-bootstrap-wysiwyg.git',
     license='MIT licence, see LICENCE',
     description='A django app that allows you to integrate `bootstrap-wysiwyg` easily.',
     long_description=open('README.md').read(),
