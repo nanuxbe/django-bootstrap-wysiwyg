@@ -1,33 +1,29 @@
 Django Bootstrap Wysiwyg
 ========================
 
+This is a fork from https://github.com/laplacesdemon/django-bootstrap-wysiwyg. The main changes from
+the original repository include:
+* fixed font-awesome and bootstrap class names
+* added a headings control group
+A pull request has been submitted to the author
+
 This django app utilizes `bootstrap-wysiwyg` editor in an app. It provides 
 a form widget to easily integrate the editor to your forms.
 
-The widget contains some inline javascript, I plan to fix this in future versions.
+The widget contains some inline javascript.
 
 One thing to note is that image uploading works, there is a drag and drop feature.
 The wysiwyg editor is very lightweight. See dependencies and usage sections for more info.
 
 See http://mindmup.github.io/bootstrap-wysiwyg/ for details of the editor.
 
-Continuous Integration
----------------------
-
-[![Build Status](https://travis-ci.org/laplacesdemon/django-bootstrap-wysiwyg.png?branch=master)](https://travis-ci.org/laplacesdemon/django-bootstrap-wysiwyg)
-
-Visit https://travis-ci.org/laplacesdemon/django-bootstrap-wysiwyg for details 
 
 Installation
 ------------
 
-Install using the pypi
+Install from source
 
-    pip install django-bootstrap-wysiwyg
-
-or directly frop the source
-
-    pip install git+https://github.com/laplacesdemon/django-bootstrap-wysiwyg.git
+    pip install git+https://github.com/nanuxbe/django-bootstrap-wysiwyg.git
 
 Usage
 -----
@@ -60,7 +56,8 @@ Following is the default value of it.
     WYSIWYH_DEFAULT_TOOLBAR_ITEMS = [
         'fonts', 
         'font_size', 
-        'font_weights', 
+        'font_weights',
+        'headings',
         'lists',
         'alignments', 
         'hyperlink', 
@@ -87,6 +84,7 @@ Dependencies
 * jQuery http://jquery.com/
 * jQuery HotKeys https://github.com/jeresig/jquery.hotkeys
 * Bootstrap http://twitter.github.com/bootstrap/
+* Font-Awesome icons http://fortawesome.github.io/Font-Awesome/icons/
 
 Adding new toolbar buttons
 --------------------------
