@@ -5,6 +5,7 @@ This is a fork from https://github.com/laplacesdemon/django-bootstrap-wysiwyg. T
 the original repository include:
 * fixed font-awesome and bootstrap class names
 * added a headings control group
+
 A pull request has been submitted to the author
 
 This django app utilizes `bootstrap-wysiwyg` editor in an app. It provides 
